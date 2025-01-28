@@ -42,5 +42,51 @@ body{
     margin-top: 40px;
     margin-left: 170px;
     margin-right: 170px;
+     flex-direction: column; /* Posiziona gli elementi all'interno in verticale */
+}
+
+
+/* BOTTONI */
+.button-container {
+    display: flex;
+    gap: 10px; /* Distanza tra i bottoni */
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.secondo-bottone {
+    background-color: white;
+    border: 1px solid #ccc !important;
+    color: #666;
+}
+/* Stile base per tutti i bottoni */
+.bot {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px; /* Arrotonda i bordi */
 
 }
+
+/* Varianti di colore */
+.bot.primary {
+    background-color: #4da6ff;
+    color: white;
+}
+
+.bot.viola {
+    background-color: purple;
+    color: #666;
+}
+
+.bot.verde {
+    background-color: greenyellow;
+    color: white;
+}
+
+.bot.rosa {
+    background-color: pink;
+    color: white;
+}
+
+
