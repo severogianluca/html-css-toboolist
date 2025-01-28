@@ -32,3 +32,15 @@ body{
 .sfondo{
     background-color: rgb(246, 248, 249);
 }
+
+/* MAIN STYLE */
+.container{
+    background-color: white;
+    height: 580px;
+    width: 785px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
