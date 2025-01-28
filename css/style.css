@@ -5,6 +5,7 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    
 }
 
 .header div {
@@ -21,4 +22,13 @@ h1 {
     display: inline-block;
     font-weight: bold;
     vertical-align: middle;
+}
+
+/* BODY STYLE */
+body{
+    margin: 0;
+}
+
+.sfondo{
+    background-color: rgb(246, 248, 249);
 }
