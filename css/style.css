@@ -137,3 +137,24 @@ h4 .bot.giallo {
     background-color: rgb(255, 212, 118);
     color: white;
 }
+
+/* STATUS DELLE TASK */
+/* metto di default lo status di una task */
+.status {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #962424;
+    color: #962424;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.checked{
+    border: 1px solid #1a8523;
+    color: #1a8523;
+}
+
+
