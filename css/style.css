@@ -4,6 +4,7 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .header div {
@@ -12,7 +13,7 @@
 }
 
 #logo {
-    height: 40px;
+    height: 60px;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h1 {
 /* BODY STYLE */
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sfondo {
@@ -37,10 +39,8 @@ body {
     height: 680px;
     width: 785px;
     border-radius: 8px;
-    margin-top: 40px;
-    margin-left: 170px;
-    margin-right: 170px;
-    flex-direction: column; /* Posiziona gli elementi all'interno in verticale */
+   margin: 0 auto;   /*  <------ mi permette di rendere automatico l'accentramento  */
+    max-width: 70%;
 }
 
 /* BOTTONI */
@@ -80,17 +80,7 @@ body {
     vertical-align: middle;  /* Allinea verticalmente al centro */
 }
 
-/* Stile per la freccia */
-.arrow-down {
-    display: inline-block;
-    margin-left: 5px;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid;
-    color: #575656;
-}
+
 
 h3 {
     margin-top: 20px;
