@@ -1,11 +1,9 @@
-
 /* HEADER STYLE */
-.header{
+.header {
     background-color: white;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
-    
 }
 
 .header div {
@@ -13,7 +11,7 @@
     align-items: center; /* Allinea verticalmente */
 }
 
-#logo{
+#logo {
     height: 40px;
 }
 
@@ -25,70 +23,62 @@ h1 {
 }
 
 /* BODY STYLE */
-body{
+body {
     margin: 0;
 }
 
-.sfondo{
+.sfondo {
     background-color: rgb(246, 248, 249);
 }
 
 /* MAIN STYLE */
-.container{
+.container {
     background-color: white;
-    height: 580px;
+    height: 680px;
     width: 785px;
     border-radius: 8px;
     margin-top: 40px;
     margin-left: 170px;
     margin-right: 170px;
-     flex-direction: column; /* Posiziona gli elementi all'interno in verticale */
+    flex-direction: column; /* Posiziona gli elementi all'interno in verticale */
 }
 
-
 /* BOTTONI */
+
+/* stile per i bottoni principali alti */
+#btn-aggiungi-task {
+    background-color: #4da6ff; /* Arancione */
+    color: white;
+}
+
+#btn-aggiungi-sezione {
+    background-color: #ffffff;
+    border: 2px solid #9c9c9c;
+    color: #a8a8a8;
+}
+
 .button-container {
     display: flex;
     gap: 10px; /* Distanza tra i bottoni */
     margin-bottom: 20px;
     padding-top: 15px;
-    padding-left:50px;
+    padding-left: 50px;
 }
 
 .secondo-bottone {
     background-color: white;
-    border: 1px solid #ccc !important; /* ho dovuto forzare non capisco per quale motivo non riscivo a mostrare il bordo da chiedere!!! */
+    border: 1px solid #ccc !important; /* Ho dovuto forzare non capisco per quale motivo non riuscivo a mostrare il bordo */
     color: #666;
 }
+
 /* Stile base per tutti i bottoni */
 .bot {
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 10px; /* Arrotonda i bordi */
-
+    display: inline-block;  /* Rende il bottone inline, evitando che si sposti */
+    vertical-align: middle;  /* Allinea verticalmente al centro */
 }
-
-/* Varianti di colore */
-.bot.primary {
-    background-color: #4da6ff;
-    color: white;
-}
-
-.bot.viola {
-    background-color: purple;
-    color: #666;
-}
-
-.bot.verde {
-    background-color: greenyellow;
-    color: white;
-}
-
-.bot.rosa {
-    background-color: pink;
-    color: white;
-}
-
 
 /* Stile per la freccia */
 .arrow-down {
@@ -98,14 +88,62 @@ body{
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 5px solid ;
+    border-top: 5px solid;
     color: #575656;
-    
 }
 
-h3{
+h3 {
     margin-top: 20px;
-    padding-left:50px;
+    padding-left: 50px;
     font-family: "Franklin Gothic", sans-serif;
-    color: #575656;
+    color: #3a3a3a;
+}
+
+h4 {
+    font-family: "Arial", sans-serif;
+    color: #777777;
+    padding-left: 50px;
+}
+
+/* Bottoni in h4 */
+h4 .bot {
+    padding:6px;  /* Riduce ancora di più lo spazio interno */
+    border-radius: 15px; /* Angoli più arrotondati */
+    font-size: 0.9rem;   /* Testo più piccolo */
+    line-height: 1;      /* Evita spazio extra sopra e sotto il testo */
+    background-color: #4da6ff; /* Mantieni il colore */
+    color: white; /* Mantieni il testo bianco */
+   
+   
+}
+
+/* Bottoni in h4 quando modificarli */
+h4 .bot.primary {
+    background-color: #4da6ff;
+    color: white;
+}
+
+h4 .bot.viola {
+    background-color: purple;
+    color: #ffffff;
+}
+
+h4 .bot.verdescuro {
+    background-color: rgb(119, 153, 68);
+    color: white;
+}
+
+h4 .bot.verde {
+    background-color: rgb(131, 199, 30);
+    color: white;
+}
+
+h4 .bot.rosa {
+    background-color: pink;
+    color: white;
+}
+
+h4 .bot.giallo {
+    background-color: rgb(255, 212, 118);
+    color: white;
 }
